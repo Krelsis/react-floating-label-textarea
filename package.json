@@ -1,73 +1,87 @@
 {
-  "name": "react-floating-label-textarea",
-  "description": "A floating label textarea component for React",
-  "keywords": "floating label textarea field material ui",
-  "version": "0.0.1",
-  "main": "dist/react-floating-label-textarea.cjs.js",
-  "module": "dist/react-floating-label-textarea.esm.js",
-  "browser": "dist/react-floating-label-textarea.umd.js",
-  "style": "dist/react-floating-label-textarea.css",
-  "author": "Cymen Vig <cymenvig@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cymen/react-floating-label-textarea.git"
-  },
-  "prettier": {
-    "printWidth": 120,
-    "tabWidth": 2,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
-  "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0",
-    "styled-components": "^4.0.0"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/addon-actions": "^5.0.11",
-    "@storybook/addon-links": "^5.0.11",
-    "@storybook/react": "^5.0.11",
-    "@storybook/storybook-deployer": "^2.8.1",
-    "autoprefixer": "^9.5.1",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.13.2",
-    "enzyme-to-json": "^3.3.5",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-import": "^2.17.3",
-    "jest": "^24.8.0",
-    "jest-css-modules": "^2.0.0",
-    "node-sass": "^4.12.0",
-    "prettier": "^1.17.1",
-    "raf": "^3.4.1",
-    "rollup": "^1.12.5",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.0.0",
-    "sass-loader": "^7.1.0",
-    "styled-components": "^4.1.2"
-  },
-  "scripts": {
-    "build": "rollup -c",
-    "build-storybook": "build-storybook",
-    "coverage": "jest test --coverage",
-    "deploy-storybook": "storybook-to-ghpages",
-    "dev": "rollup -c -w",
-    "lint": "eslint src",
-    "pretest": "npm run build",
-    "storybook": "start-storybook -p 6006",
-    "test": "jest test"
-  },
-  "files": [
-    "dist"
-  ]
+	"name": "@krelsis/react-floating-label-textarea",
+	"description": "A floating label textarea component for React",
+	"version": "0.0.2",
+	"main": "dist/react-floating-label-textarea.cjs.js",
+	"module": "dist/react-floating-label-textarea.esm.js",
+	"browser": "dist/react-floating-label-textarea.umd.js",
+	"style": "dist/react-floating-label-textarea.css",
+	"files": [
+		"dist"
+	],
+	"types": "dist/types/",
+	"author": "Cymen Vig <cymenvig@gmail.com>",
+	"contributors": [
+		"Krelsis"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Krelsis/react-floating-label-textarea.git"
+	},
+	"prettier": {
+		"printWidth": 120,
+		"tabWidth": 2,
+		"singleQuote": true,
+		"trailingComma": "es5"
+	},
+	"peerDependencies": {
+		"react": "^15.0.0 || ^16.0.0",
+		"react-dom": "^15.0.0 || ^16.0.0",
+		"styled-components": "^4.0.0"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-transform-react-jsx": "^7.3.0",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-react": "^7.0.0",
+		"@storybook/addon-actions": "^5.0.11",
+		"@storybook/addon-links": "^5.0.11",
+		"@storybook/react": "^5.0.11",
+		"@storybook/storybook-deployer": "^2.8.1",
+		"@types/react": "^18.0.37",
+		"autoprefixer": "^9.5.1",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^24.8.0",
+		"enzyme": "^3.9.0",
+		"enzyme-adapter-react-16": "^1.13.2",
+		"enzyme-to-json": "^3.3.5",
+		"eslint": "^5.16.0",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-config-prettier": "^4.3.0",
+		"eslint-plugin-import": "^2.17.3",
+		"jest": "^24.8.0",
+		"jest-css-modules": "^2.0.0",
+		"node-sass": "^4.12.0",
+		"prettier": "^1.17.1",
+		"raf": "^3.4.1",
+		"rollup": "^1.12.5",
+		"rollup-plugin-babel": "^4.3.2",
+		"rollup-plugin-commonjs": "^10.0.0",
+		"rollup-plugin-copy": "^3.4.0",
+		"rollup-plugin-node-resolve": "^5.0.0",
+		"sass-loader": "^7.1.0",
+		"styled-components": "^4.1.2",
+		"typescript": "^5.0.4"
+	},
+	"keywords": [
+		"floating",
+		"label",
+		"textarea",
+		"field",
+		"martial",
+		"ui"
+	],
+	"scripts": {
+		"build": "rollup -c",
+		"build-storybook": "build-storybook",
+		"coverage": "jest test --coverage",
+		"deploy-storybook": "storybook-to-ghpages",
+		"dev": "rollup -c -w",
+		"lint": "eslint src",
+		"pretest": "npm run build",
+		"storybook": "start-storybook -p 6006",
+		"test": "jest test"
+	}
 }
