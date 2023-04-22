@@ -1,7 +1,7 @@
 {
 	"name": "@krelsis/react-floating-label-textarea",
 	"description": "A floating label textarea component for React",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"main": "dist/react-floating-label-textarea.cjs.js",
 	"module": "dist/react-floating-label-textarea.esm.js",
 	"browser": "dist/react-floating-label-textarea.umd.js",

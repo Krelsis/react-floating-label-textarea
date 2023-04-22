@@ -52,7 +52,7 @@ const commonPlugins = [
 			...commonPlugins,
 			copy({
 				targets: [
-					{src: "src/main.d.ts", dest: "dist/types"}
+					{src: "src/index.d.ts", dest: "dist/types"}
 				]
 			})
 		],

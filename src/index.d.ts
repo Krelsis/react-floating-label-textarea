@@ -1,4 +1,4 @@
-declare module "react-floating-label-textarea"
+declare module "@krelsis/react-floating-label-textarea"
 {
 	import * as React from "react";
 
